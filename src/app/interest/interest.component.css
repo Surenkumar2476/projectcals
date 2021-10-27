@@ -1,0 +1,72 @@
+.radion a{
+    text-decoration:none;
+    color:black;
+    padding-left:200px;
+}
+.radion{
+    display:inline-block;
+    width:100%;
+    height:100px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #009c60;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ff004c;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+label{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.interest{
+    height:100px;
+    display:inline-block;
+}
+
+.simple-interest{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:600px;
+    border:1px solid green;
+
+}
+
+h1{
+    color:green;
+    padding-left:90px;
+   
+}
+
+.interest-text{
+    margin-left:0;
+}
+
+.output-interest,.output-total{
+    margin-left:100px;
+}

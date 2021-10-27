@@ -1,0 +1,27 @@
+<div class="interest">
+    <div class="radion">
+        <a href="#"><input type="radio" class="radio-btn" name="loan" value=7 #myvalue (click)="home(myvalue.value)"/></a><label>Home</label>
+        <a href="#"><input type="radio" class="radio-btn" name="loan" value=4 #myedu (click)="edu(myedu.value)"/></a><label>Education</label>
+        <a href="#"><input type="radio" class="radio-btn" name="loan" value=10 #myvehicle (click)="veh(myvehicle.value)"/></a><label>Vehicle</label>
+        <a href="#"><input type="radio" class="radio-btn" name="loan" value=11 #mypersonal (click)="personal(mypersonal.value)"/></a><label>Personal</label>
+    </div>
+</div>
+
+
+<div class="simple-interest">
+     <h1>SIMPLE INTEREST</h1>
+     <form>
+     <label>Principle:</label><input type="text" placeholder="Rs.1,00,000" #myprinciple /><br>
+     <label>Time in (Months):</label><input type="text" placeholder="Months" #mymonth /><br>
+     <label>Rate of Interest:</label><input type="text" placeholder="5%" value={{data}} (click)="getval()" #myinterest/><br>
+     <label>EMI:</label><input type="text" value={{emi}}/><br>
+
+     <input type="button" value="Calculate" (click)="amount(myprinciple.value,mymonth.value,myinterest.value)"/>
+     <input type="reset" value="Reset"/>
+
+     <h1 class="interest-text">Your Interest:</h1>
+     <h2 class="output-interest">{{output}}</h2>
+     <h1 class="interest-text">Total Amount:</h1>
+     <h2 class="output-total">{{total}}</h2>
+     </form>
+</div>

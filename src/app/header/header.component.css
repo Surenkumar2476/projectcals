@@ -1,0 +1,21 @@
+.header{
+    width:100%;
+    height:75px;
+    background-color:rgb(48, 38, 38);
+}
+
+.text-header ul li{
+   
+    display:inline-block;
+    margin-right:30px;
+    font-size:25px;
+    padding-top:20px;
+    
+}
+
+.text-header ul li a{
+    text-decoration:none;
+    font-family:Nunito;
+    color:white;
+  
+}
